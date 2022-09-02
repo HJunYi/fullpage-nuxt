@@ -19,8 +19,8 @@ A by-page scroll, support horizontal scroll and vertical scroll, support all the
     // Simple usage
     'fullpage-nuxt',
 
-    // With options
-    ['fullpage-nuxt', { /* module options */ }],
+    // With options 在 nuxt 中使用的时候 想要开启 animate.css 需要在这个地方开启
+    ['fullpage-nuxt', { /* module options */ animate: true }],
  ]
 }
 ```
